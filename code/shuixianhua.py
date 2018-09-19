@@ -8,5 +8,5 @@ for number in range(100,1000):
   ge = number % 10
   shi = number // 10 % 10
   bai = number // 100
-  if ge ** 3 + shi ** 3 + bai ** 3 == 100:
+  if ge ** 3 + shi ** 3 + bai ** 3 == number:
     print(number)
